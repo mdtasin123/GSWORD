@@ -14,7 +14,7 @@ try:
 except ModuleNotFoundError:
         os.system(f'pip install requests futures==2 > /dev/null')
 except:pass
-if not len(open('/data/data/com.termux/files/usr/lib/python3.11/site-packages/requests/models.py','r').readlines())==1034:print('Bypass User')
+
 ###----------[ GLOBAL NAMA ]----------###
 
 id,id2,uid = [],[],[]
@@ -759,7 +759,7 @@ def m3(idf,pw):
     if 'y' in cokix:
      print(f'\r{gen}{H}'+coki)
     ok+=1 
-    open(' /sdcard/ULTRA-GREEN-OK.txt','a').write(user+'|'+ps+'|'+'\n')
+    open('/sdcard/ULTRA-GREEN-OK.txt','a').write(user+'|'+ps+'|'+'\n')
     ok.append(user)
     break
    elif 'checkpoint' in log_cookies:
@@ -768,7 +768,7 @@ def m3(idf,pw):
     uid = "1000"+coki1[0:11]
     if 'y' in cp_xdx:
      print(f'\r{P} [\033[1;30mKING-CP{P}] \033[1;30m{idf}|{ps}{xxx}')
-    open(' /sdcard/ULTRA-GREEN-CP.txt','a').write(idf+'|'+ps+'|'+'\n')
+    open('/sdcard/ULTRA-GREEN-CP.txt','a').write(idf+'|'+ps+'|'+'\n')
     cp.append(idf)
    else:
     continue
